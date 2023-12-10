@@ -1,0 +1,28 @@
+body {
+    background-image: url('fruits.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ui.container {
+    margin-top: 20px; /* Adjust the top margin for better visibility of the content */
+}
+
+.ui.segment {
+    margin-top: 20px; /* Adjust the top margin for better spacing */
+}
+
+.ui.header {
+    font-size: 100px; /* Adjust the size to your preference */
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.header-container img {
+    margin-right: 10px; /* Adjust the spacing between the image and the header */
+}

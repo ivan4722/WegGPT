@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WegGPT</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="ui container">
+    <div class="ui segment">
+        <div class="header-container">
+            <img src="logo2.png" alt="WegGPT Logo" class="ui image" style="max-width: 10%;">
+            <h1 class="ui header">WegGPT</h1>
+        </div>
+        <form id="chat-form" class="ui form">
+            <div class="field">
+                <label for="days">How many days do you want to shop for?</label>
+                <input type="text" id="days" required>
+            </div>
+            <div class="field">
+                <label for="cal">How many calories per day?</label>
+                <input type="text" id="cal" required>
+            </div>
+            <div class="field">
+                <label for="alg">Dietary Restrictions? If none leave blank.</label>
+                <input type="text" id="alg">
+            </div>
+            <div class="field">
+                <label for="xtra">Any additional information:</label>
+                <input type="text" id="xtra">
+            </div>
+            <button type="submit" class="ui button">Submit</button>
+        </form>
+        <div>
+            <h2 class="ui header">Shopping List:</h2>
+            <textarea id="response" rows="20" style="width: 80%;" readonly class="ui segment"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
