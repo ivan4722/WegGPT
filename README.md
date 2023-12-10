@@ -8,3 +8,6 @@ Frontend application, through the form, an AJAX post request is sent to the Chat
 
 # Possible Implementation
 Upon fetch request, in the backend also check with data stored in a db. For example, using mongoose and mongodb, the server can first check if wegmans has it in stock, before appending it to the response. 
+
+# Reference
+https://www.youtube.com/watch?v=AuxSJiv4NZU
