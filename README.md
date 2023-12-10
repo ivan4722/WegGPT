@@ -1,6 +1,7 @@
 # Tutorial
 Note: shopping list takes some time to be generated, around 10-20 seconds. 
 An AI powered shopping list generator given days to shop for, daily caloric intake, and dietary restrictions and anything else specific you want!
+REQUIRED: ADD API KEY
 
 # Info
 Frontend application, through the form, an AJAX post request is sent to the ChatGPT 4 API requesting data, and that data is then appended to the response box.
