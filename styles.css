@@ -6,23 +6,23 @@ body {
 }
 
 .ui.container {
-    margin-top: 20px; /* Adjust the top margin for better visibility of the content */
+    margin-top: 20px;
 }
 
 .ui.segment {
-    margin-top: 20px; /* Adjust the top margin for better spacing */
+    margin-top: 20px; 
 }
 
 .ui.header {
-    font-size: 100px; /* Adjust the size to your preference */
+    font-size: 100px;
 }
 
 
 .header-container {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center;
 }
 
 .header-container img {
-    margin-right: 10px; /* Adjust the spacing between the image and the header */
+    margin-right: 10px; 
 }
