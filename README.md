@@ -7,6 +7,9 @@ To run:
 2. add API key to ```script.js``` on line 5 at ```const API_KEY = '';```. Make sure the key is in quotes.
 3. Open index.html and enter request.
 
+Or use the link here:
+https://petalite-plausible-playroom.glitch.me/
+
 # Info
 Frontend application, through the form, a prompt is generated through the user input. Then an AJAX post request is sent to the ChatGPT 4 API with the prompt as the body requesting data. Upon response from the API, data is then appended to the response box.
 
